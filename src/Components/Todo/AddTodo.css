@@ -1,0 +1,25 @@
+.new-todo {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.new-todo button {
+  font: inherit;
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border: 1px solid #f20303;
+  background-color: #6a0b96;
+  color: white;
+  border-radius: 12px;
+  margin-right: 1rem;
+  width: 30%;
+}
+.new-todo button:hover,
+.new-todo button:active {
+  background: #450164;
+  border-color: #510674;
+}

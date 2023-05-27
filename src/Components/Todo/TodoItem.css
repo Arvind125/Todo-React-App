@@ -1,0 +1,22 @@
+.todo-item {
+  background: #b7abab;
+  border-radius: 12px;
+  color: black;
+  text-align: left;
+  font-weight: bold;
+}
+
+button {
+  background: rgb(52, 200, 52);
+  color: black;
+  font-weight: bold;
+  font: inherit;
+  border-radius: 6px;
+  float: right;
+  border-color: blue;
+  cursor: pointer;
+}
+button:hover {
+  background-color: green;
+  border-color: green;
+}
